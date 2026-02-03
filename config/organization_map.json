@@ -1,0 +1,39 @@
+{
+  "Division A": {
+    "id": 1,
+    "locations": {
+      "Location 1": 1,
+      "Location 2": 2,
+      "Location 3": 42,
+      "Location 4": 49
+    }
+  },
+  "Corporate": {
+    "id": 2,
+    "locations": {
+      "Headquarters": 22,
+      "Data Center": 25,
+      "SaaS Application": 75,
+      "Cloud": 76
+    }
+  },
+  "Division B": {
+    "id": 3,
+    "locations": {
+      "Site 1": 23,
+      "Site 2": 41,
+      "Site 3": 43,
+      "Site 4": 44,
+      "Site 5": 74
+    }
+  },
+  "Service": {
+    "id": 4,
+    "locations": {
+      "Region 1": 24,
+      "Region 2": 26,
+      "Region 3": 27,
+      "Region 4": 28
+    }
+  }
+}

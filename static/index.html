@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nate | IT Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="brand">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M9.315 7.584C12.195 3.883 16.695 1.5 21.75 1.5a.75.75 0 01.75.75c0 5.056-2.383 9.555-6.084 12.436h.001c-3.7 2.881-8.199 5.264-13.254 5.264a.75.75 0 01-.75-.75c0-5.055 2.383-9.554 6.084-12.435zm.82 1.699l-.733-.615c.377-.476.789-.93 1.23-1.356l.615.733c-.384.371-.741.766-1.064 1.177l-.048.061zm2.505-2.505l-.615-.733c.427-.44.881-.852 1.356-1.23l.733.615c-.411.323-.807.68-1.177 1.064l-.061.048zm-3.465 4.63l-.733-.615c.476-.377.93-.789 1.356-1.23l.615.733c-.371.384-.766.741-1.177 1.064l-.061.048zM7.584 9.315l-.615.733c-.44-.427-.852-.881-1.23-1.356l.615-.733c.323.411.68.807 1.064 1.177l-.048.061z"
+                        clip-rule="evenodd" />
+                </svg>
+                Nate
+            </div>
+            <button id="new-chat-btn" class="new-chat-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                    style="width:16px;height:16px;">
+                    <path fill-rule="evenodd"
+                        d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z"
+                        clip-rule="evenodd" />
+                </svg>
+                New Chat
+            </button>
+            <div class="session-list" id="session-list">
+                <!-- Sessions loaded here -->
+            </div>
+        </aside>
+
+        <main>
+            <div id="chat-container">
+                <!-- Messages loaded here -->
+            </div>
+
+            <footer>
+                <div class="input-container">
+                    <div class="input-box">
+                        <textarea id="user-input" rows="1" placeholder="Send a message..."></textarea>
+                        <button id="send-btn" class="send-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M3.478 2.405a.75.75 0 00-.926.94l2.432 7.905H13.5a.75.75 0 010 1.5H4.984l-2.432 7.905a.75.75 0 00.926.94 60.519 60.519 0 0018.445-8.986.75.75 0 000-1.218A60.517 60.517 0 003.478 2.405z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="disclaimer">Nate can make mistakes. Consider checking important information.</div>
+                </div>
+            </footer>
+        </main>
+    </div>
+    <script src="/static/app.js"></script>
+</body>
+
+</html>

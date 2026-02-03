@@ -1,0 +1,8 @@
+# This directory contains documentation and sensitive data
+# Subdirectories:
+# - tickets/     - Ticket data pulled from NinjaOne
+# - it_docs/     - IT documentation (how-tos, SOPs)
+# - emp_info/    - Employee information
+# - tech_info/   - Technician information
+# - nate_docs/   - Nate's generated documentation
+# - tech_notes/  - Technician notes and rules

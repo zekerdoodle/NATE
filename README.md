@@ -10,7 +10,7 @@
 
 ## How It Works
 
-NATE integrates with NinjaOne (IT management platform) and uses GPT-4 with custom tool calling to:
+NATE integrates with NinjaOne (IT management platform) and uses OpenAI GPT models with custom tool calling to:
 
 1. **Automated Ticket Processing**
    - Monitors incoming tickets in real-time
@@ -26,7 +26,7 @@ NATE integrates with NinjaOne (IT management platform) and uses GPT-4 with custo
 
 ```
 ┌─────────────────┐     ┌──────────────────┐     ┌─────────────────┐
-│   NinjaOne API  │────▶│   Ticket Worker  │────▶│   LLM (GPT-4)   │
+│   NinjaOne API  │────▶│   Ticket Worker  │────▶│  LLM (OpenAI)   │
 └─────────────────┘     │   + Listener     │     │   + Tool Use    │
                         └──────────────────┘     └────────┬────────┘
                                                           │
@@ -46,7 +46,7 @@ NATE integrates with NinjaOne (IT management platform) and uses GPT-4 with custo
 ## Tech Stack
 
 - **Python 3.10+**
-- **OpenAI GPT-4** with function calling
+- **OpenAI GPT** with function calling
 - **FAISS** for vector similarity search
 - **Nomic embeddings** (local, CPU-friendly)
 - **SQLite** for metadata storage
